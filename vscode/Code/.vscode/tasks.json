@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"options": {
+		"cwd": "${workspaceFolder}"
+	},
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "task g++",
+			"command": "C:\\MinGW\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${workspaceFolder}\\*.cpp",
+				"${workspaceFolder}\\SoneUtil\\FileUtil\\*.cpp",
+				"${workspaceFolder}\\SoneUtil\\StringUtil\\*.cpp"
+			],
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build",
+			"detail": "compiler: cl.exe",
+			//"dependsOn": ["make util"]
+		}
+		/*
+		{
+			"label": "make util",
+			"type": "shell",
+			"command": "C:\\MinGW\\mingw64\\bin\\g++.exe",
+			"args": [
+
+			],
+			"group": "build"
+		}
+		*/
+	]
+}
