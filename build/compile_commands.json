@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/sone/code/klop/build",
+  "command": "/usr/bin/g++  -I/home/sone/code/klop/code_triats/./extern -I/home/sone/code/klop/code_triats/./src -g -o CMakeFiles/sone.dir/main.cpp.o -c /home/sone/code/klop/code_triats/main.cpp",
+  "file": "/home/sone/code/klop/code_triats/main.cpp"
+},
+{
+  "directory": "/home/sone/code/klop/build",
+  "command": "/usr/bin/gcc  -I/home/sone/code/klop/code_triats/./extern -I/home/sone/code/klop/code_triats/./src -g -o CMakeFiles/sone.dir/extern/http_parser/http_parser.c.o -c /home/sone/code/klop/code_triats/extern/http_parser/http_parser.c",
+  "file": "/home/sone/code/klop/code_triats/extern/http_parser/http_parser.c"
+},
+{
+  "directory": "/home/sone/code/klop/build",
+  "command": "/usr/bin/g++  -I/home/sone/code/klop/code_triats/./extern -I/home/sone/code/klop/code_triats/./src -g -o CMakeFiles/sone.dir/src/ds/uf.cpp.o -c /home/sone/code/klop/code_triats/src/ds/uf.cpp",
+  "file": "/home/sone/code/klop/code_triats/src/ds/uf.cpp"
+}
+]

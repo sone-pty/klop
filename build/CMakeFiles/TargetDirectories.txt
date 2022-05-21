@@ -1,0 +1,3 @@
+/home/sone/code/klop/build/CMakeFiles/rebuild_cache.dir
+/home/sone/code/klop/build/CMakeFiles/sone.dir
+/home/sone/code/klop/build/CMakeFiles/edit_cache.dir

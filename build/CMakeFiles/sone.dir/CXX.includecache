@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sone/code/klop/code_triats/extern/http_parser/http_parser.h
+stddef.h
+-
+BaseTsd.h
+-
+sys/inttypes.h
+-
+stdint.h
+-
+
+/home/sone/code/klop/code_triats/main.cpp
+pthread.h
+-
+stdio.h
+-
+unistd.h
+-
+strings.h
+-
+string.h
+-
+vector
+-
+ds/uf.h
+-
+http_parser/http_parser.h
+-
+
+/home/sone/code/klop/code_triats/src/ds/uf.cpp
+uf.h
+/home/sone/code/klop/code_triats/src/ds/uf.h
+
+/home/sone/code/klop/code_triats/src/ds/uf.h
+
